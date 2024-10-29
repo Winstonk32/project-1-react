@@ -16,7 +16,7 @@ const App = () => {
 
   return (
     <div className="container mx-auto p-6">
-      <h1 className="text-3xl font-bold text-center mb-6">Books & Movies</h1>
+      <h1 className="text-5xl font-bold text-center mb-6 bg-gray-500 text-yellow-100">Books & Movies</h1>
       <div className="mb-8">
         <List items={books} type="book" />
       </div>
